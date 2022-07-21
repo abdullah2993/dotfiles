@@ -1,0 +1,13 @@
+[alias]
+	permission-reset = !git diff -p -R --no-ext-diff --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
+	pullhead = !git pull origin $(git branch --show-current)
+	pushhead = !git push origin $(git branch --show-current)
+[user]
+	email = a.saleem2993@gmail.com
+	name = abdullah2993
+[color]
+	ui = true
+[core]
+	editor = vim
+[pull]
+	rebase = false
