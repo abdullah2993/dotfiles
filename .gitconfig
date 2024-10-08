@@ -6,7 +6,7 @@
 	cfb=!sh -c 'git checkout -b feature/$1' -
 [user]
 	email = a.saleem2993@gmail.com
-	name = abdullah2993
+	name = Abdullah Saleem
 [color]
 	ui = true
 [core]
