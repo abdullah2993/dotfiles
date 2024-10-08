@@ -2,6 +2,7 @@
 	permission-reset = !git diff -p -R --no-ext-diff --no-color | grep -E \"^(diff|(old|new) mode)\" --color=never | git apply
 	pullhead = !git pull origin $(git branch --show-current)
 	pushhead = !git push origin $(git branch --show-current)
+	pushheadf = !git push origin +$(git branch --show-current)
 	cfb=!sh -c 'git checkout -b feature/$1' -
 [user]
 	email = a.saleem2993@gmail.com
